@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>COPY CENTER</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    /* Style the header */
+
+    .header {
+      background-color: #f1f1f1;
+      background-image: url("images/art-colorful.jpg");
+      padding: 40px;
+      text-align: center;
+    }
+
+    /* Create three unequal columns that floats next to each other */
+
+    .column {
+      float: left;
+      padding: 10px;
+      height: 450px;
+
+    }
+
+    /* Left and right column */
+
+    .column.side {
+      width: 30%;
+    }
+
+    /* Middle column */
+
+    .column.middle {
+      width: 40%;
+    }
+
+    /* Clear floats after the columns */
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the footer */
+
+    .footer {
+      background-color: #f1f1f1;
+      background-image: url("images/4k-slow-motion-blue.png");
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+    @media (max-width: 600px) {
+      .column.side,
+      .column.middle {
+        width: 100%;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="header">
+     <h1 class="index-tittle">COPIAS JIREH</h1>
+     <h2 class="index-h2">Todas sus Necesidades de Copias</h2>
+     <p style="text-align:center">nos encanta atender a la gente </p>
+   </div>
+
+   <div class="row">
+     <div class="column side" style="background-color:#0064b0;">
+       <h3 class="h3-csl">MY FIRST WEB PAGES</h3>
+       <em>the last link was my first web and the top link is my last web</em>
+       <ul>
+         <li><a href="./servicios.html" class="button2">SERVICOS</a></li>
+         <li><a href="./precios.html" class="button3">PRECIOS</a></li>
+         <li><a href="./contacto.html" class="button4">CONTACTO</a></li>
+       </ul>
+     </div>
+     <div class="column middle" style="background-color:#0064b0;">
+       <h1 class="h3-csl">Quiénes Somos</h1>
+         <img src="./images/color-background.jpg" alt="mypic" width="100px" height="100px"/>
+         <ul>
+           <li><strong>FULL NAME: </strong><em>aaron mendez</li>
+           <li><strong>NATIONALITY: </strong><em>mexico</li>
+           <li><strong>AGE: </strong><em>29 Years Old</li>
+           <li><strong>E-MAIL: </strong><em>aaronmendez51388@gmail.com</li>
+           <li><strong>STATUS: </strong><em>married</li>
+           <li><strong>GENDER: </strong><em>Male</li>
+         </ul>
+     </div>
+     <div class="column side" style="background-color:#0064b0;">
+       <h3 class="h3-csl">INFO</h5>
+         <tr>
+           <td>Bond Oficio</td>
+           <td>$1.00</td>
+           <td>$7.00</td>
+         </tr>
+         <ol>
+           <li>FIRST JOB:  <em>4 Years on a Bank, like a researching and support on IT Department</li>
+           <li>SECOND JOB: <em>2 Years on a Sales Company, like a IT Manager</li>
+           <li>EXPERIENCE: <em>
+               <li>TECHNICAL SUPPORT</li>
+               <li>DATA CENTER INFRASTRUCTURE</li>
+               <li>DESKTOP AND SERVER VIRTUALIZATION WITH VMWARE AND CITRIX</li>
+               <li>SAN INFRASTRUCTURE</li>
+               <li>BACKUP AND LOCAL SECURITY</li>
+               <li>SECURITY POLICIES</li>
+               <li>LINUX SERVERS</li>
+               <li>MICROSOFT SHAREPOINT - WINDOWS SERVER - EXCHANGE SERVER - SQL SERVER...</li>
+           </li>
+         </ol>
+     </div>
+   </div>
+
+   <div class="footer">
+     <h5>Centro de Copiado Servicio a Domicilio</h5>
+     <h1 style="text-align:center">Mail: jireh_nicia.com</h1>
+   </div>
+</body>
+
+</html>
